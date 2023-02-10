@@ -1,0 +1,10 @@
+[package]
+name = "pro_stu"
+version = "0.0.1"
+
+[dependencies]
+# MoveStdlib = { local = "/home/cloudwei/work/moveProject/move/language/move-stdlib/", addr_subst = { std = "0x1" } }
+MoveNursery = { git = "https://github.com/move-language/move.git", subdir="language/move-stdlib/nursery", rev = "main"}
+
+[addresses]
+std =  "0x1"
