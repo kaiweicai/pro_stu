@@ -8,3 +8,4 @@ MoveNursery = { git = "https://github.com/move-language/move.git", subdir="langu
 
 [addresses]
 std =  "0x1"
+NamedAddr = "0xCAFE"
